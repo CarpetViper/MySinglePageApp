@@ -1,0 +1,39 @@
+.navbar_logo {
+  max-width: 1000px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 200;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.navbar__cell {
+  max-width: 1000px;
+  font-size: 1rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #ccc;
+}
+a {
+  text-decoration: none;
+  color: #808080;
+}
+.navbar_item {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+.navbar_item a.activeLink {
+  font-size: 1.56rem;
+  font-weight: 500;
+  color: gold;
+}
+.navbar__cell {
+  max-width: 1000px;
+  font-size: 1rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #ccc;
+}

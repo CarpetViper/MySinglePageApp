@@ -1,0 +1,10 @@
+.description__cell {
+    padding-top: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  
+  .underline {
+   border-bottom: 1px solid red;
+  }

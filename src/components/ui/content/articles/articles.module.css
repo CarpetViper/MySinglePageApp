@@ -1,0 +1,62 @@
+.textAreaForm__cell, .displayArticlesBlock__cell {
+  max-width: 1000px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 2rem 0;
+  margin: 0 auto;
+  word-break: break-all;
+}
+
+.textarea {
+  width: 20rem;
+  height: 2rem;
+  resize: none;
+}
+
+.item {
+  list-style: none;
+  text-align: left;
+  padding:1rem 0;
+}
+
+.hide {
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  border-radius: 7px;
+}
+
+.inputTextLabel {
+  display: inline-block;
+  cursor: pointer;
+  background-color: gray;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+
+.deleteArticleLabel {
+  margin-top: 1rem;
+  cursor: pointer;
+  float: right;
+  background-color: gray;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+
+.inputTextLabel:hover, .deleteArticleLabel:hover {
+  background-color:rgba(0, 0, 0, 0.3);
+  
+}
+
+.inputTextLabel:active, .deleteArticleLabel:active {
+  background-color: #333;
+  border-color: #333;
+  color: #eee;
+}
+
+
+
+
